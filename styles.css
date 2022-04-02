@@ -1,0 +1,550 @@
+/* navbar-expand-lg navbar-dark bg-dark */
+
+.navbar-custom {
+    z-index: 3000000;
+}
+
+body {
+    font-family: "VALORANT", sans-serif !important;
+    line-height: 1.5;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+.showcase {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+    color: #fff;
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: var(--primary-color) url("https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt0a5e500502aabd25/61d908728aabbf6426b75298/Disruption_VAL_DESKTOP_POSTER_1730X720.jpg") no-repeat center center/cover;
+}
+
+.content {
+    z-index: 10;
+}
+
+
+/* .video-container video {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+video {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -51%);
+}
+
+
+/* button  */
+
+
+/* :root {
+    --background-color: #0f1923;
+} */
+
+.btn {
+    /* Clean style */
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    background: none;
+    padding: 0;
+    color: var(--button-text-color);
+    cursor: pointer;
+    /* Clean style */
+    --button-text-color: var(--background-color);
+    --button-text-color-hover: var(--button-background-color);
+    --border-color: #7d8082;
+    --button-background-color: #fff;
+    --highlight-color: #ff4655;
+    --button-inner-border-color: transparent;
+    --button-bits-color: var(--background-color);
+    --button-bits-color-hover: var(--button-background-color);
+    position: relative;
+    padding: 8px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    transition: all 0.15s ease;
+    color: #fff;
+}
+
+.btn::before,
+.btn::after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: calc(50% - 5px);
+    border: 1px solid var(--border-color);
+    transition: all 0.15s ease;
+}
+
+.btn::before {
+    top: 0;
+    border-bottom-width: 0;
+}
+
+.btn::after {
+    bottom: 0;
+    border-top-width: 0;
+}
+
+.btn:active,
+.btn:focus {
+    outline: none;
+}
+
+.btn:active::before,
+.btn:active::after {
+    right: 3px;
+    left: 3px;
+}
+
+.btn:active::before {
+    top: 3px;
+}
+
+.btn:active::after {
+    bottom: 3px;
+}
+
+.btn__inner {
+    position: relative;
+    display: block;
+    padding: 20px 30px;
+    background-color: var(--button-background-color);
+    overflow: hidden;
+    box-shadow: inset 0px 0px 0px 1px var(--button-inner-border-color);
+}
+
+.btn__inner::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 2px;
+    background-color: var(--button-bits-color);
+}
+
+.btn__inner::after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 4px;
+    height: 4px;
+    background-color: var(--button-bits-color);
+    transition: all 0.2s ease;
+}
+
+.btn__slide {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: -1px;
+    left: -8px;
+    width: 0;
+    background-color: var(--highlight-color);
+    transform: skew(-15deg);
+    transition: all 0.2s ease;
+}
+
+.btn__content {
+    position: relative;
+}
+
+.btn:hover {
+    color: var(--button-text-color-hover);
+}
+
+.btn:hover .btn__slide {
+    width: calc(100% + 15px);
+}
+
+.btn:hover .btn__inner::after {
+    background-color: var(--button-bits-color-hover);
+}
+
+.btn--light {
+    --button-background-color: var(--background-color);
+    --button-text-color: var(--highlight-color);
+    --button-inner-border-color: var(--highlight-color);
+    --button-text-color-hover: #ece8e1;
+    --button-bits-color-hover: #ece8e1;
+}
+
+.fab {
+    padding-right: 200px;
+}
+
+button {
+    color: #fff;
+}
+
+.news {
+    font-size: 80px;
+    margin-top: 65px;
+    font-weight: 900;
+}
+
+
+/* #latestNews {
+    height: 600px;
+} */
+
+.flex {
+    display: flex;
+}
+
+.second-red {
+    margin-left: 80px;
+    color: #fc646f;
+    font-size: 12px;
+}
+
+.length {
+    margin-top: 65px;
+}
+
+.headed {
+    font-size: 18px;
+    font-weight: 900;
+    color: #383e3a;
+}
+
+
+/* yoru */
+
+#yoru {
+    height: 100vh;
+    color: #fff;
+    /* background-color: blue; */
+    background-image: url("https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt25aa6271f2a03934/6217d9f6d99501714bc2300c/Valorant_2022_E4A2_SocialCover_4K_3840x2160_MB01.jpg");
+    /* background-image: url("images/yorubg.jpg"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.yoru-heading {
+    font-size: 80px;
+    /* float: left; */
+    font-weight: bold;
+}
+
+.combine {
+    padding-top: 250px;
+    float: left;
+}
+
+.sub {
+    letter-spacing: 10px;
+}
+
+
+/* pricing */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.card {
+    border: transparent;
+}
+
+.pricing {
+    padding: 3% 2%;
+}
+
+
+/* 2ndvideo */
+
+#video {
+    margin-top: 130px;
+    height: 100vh;
+}
+
+.immortal {
+    font-weight: bold;
+    font-size: 70px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    align-items: left;
+}
+
+.sub-immortal {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #383e3a;
+    align-items: left;
+    font-weight: bold;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.preSub-immortal {
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    align-items: left;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+
+/* agenst */
+
+#agents {
+    height: 80vh;
+    background-color: #ff4654;
+    padding-top: 45px;
+}
+
+.agent {
+    font-weight: bold;
+    color: #fff;
+    font-size: 70px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    align-items: left;
+}
+
+.agent-sub {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    align-items: left;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.agent-para {
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    align-items: left;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 1rem;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+
+/* last section  */
+
+#last {
+    height: 100vh;
+    margin-top: 8.9em;
+    margin-top: 200px;
+    background-image: url("images/bg.png");
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.lastHeading {
+    font-weight: bold;
+    padding-top: 2em;
+    color: black;
+    font-size: 70px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    align-items: left;
+}
+
+.lastSub {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #383e3a;
+    align-items: left;
+    font-weight: bold;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.lastPara {
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    align-items: left;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 1rem;
+    width: 300px;
+}
+
+
+/* .la {
+    margin-left: 20px;
+} */
+
+.lg-btn {
+    padding: 20px !important;
+    background-color: #292929 !important;
+    font-family: "FF Mark W05", Arial, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    text-decoration: rgb(249, 249, 249);
+    text-align: center;
+    /* text-indent: 0px; */
+    font-size: 13px;
+}
+
+footer {
+    background-color: #111111;
+    padding: 120px;
+    font-family: "FF Mark W05", Arial, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.yt-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.yt-container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.footer-cal h4 {
+    font-size: 18px;
+    color: #5a5a5a;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.footer-cal h4::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #161616;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-cal ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-cal ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffffff !important;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb !important;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+ul li {
+    color: #fff !important;
+}
+
+.footer-cal ul li a:hover {
+    color: #ffffffff;
+    padding-left: 10px;
+}
+
+.footer-cal .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.footer-cal .social-links a:hover {
+    color: #24262b;
+    background-color: #292929;
+}
+
+
+/*responsive*/
+
+@media (max-width: 767px) {
+    .footer-cal {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 574px) {
+    .footer-cal {
+        width: 100%;
+    }
+}
+
+
+/* leaderboard css style here  */
