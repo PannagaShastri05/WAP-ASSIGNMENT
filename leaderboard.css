@@ -29,10 +29,10 @@ body {
     font-family: "VALORANT", sans-serif !important;
 }
 
-span {
+.uprank {
     color: white;
     position: relative;
-    top: 408px;
+    top: 398px;
     font-weight: 100;
     font-style: normal;
     font-variant: normal;
@@ -40,7 +40,170 @@ span {
     font-size: 120px;
     line-height: 0.85;
     width: 100%;
+    font-family: "Tungsten-Bold", arial, georgia, sans-serif;
 }
 
 
 /* leaderboard  */
+
+#leader {
+    margin-top: 100px;
+}
+
+th {
+    align-items: center;
+    text-align: center;
+    color: #ece8e1;
+    margin-bottom: 45px;
+}
+
+.text {
+    text-align: center;
+    /* font-family: "Tungsten-Bold", arial, georgia, sans-serif; */
+    font-size: 15px;
+    font-family: "DINNextW1G", arial, georgia, sans-serif;
+    color: black;
+}
+
+.table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.radiant {
+    line-height: 1;
+    font-size: 20px;
+    font-weight: 20px;
+    text-transform: uppercase;
+    font-family: "Tungsten-Bold", arial, georgia, sans-serif;
+}
+
+
+/* logo  */
+
+
+/* .logo {
+    background-color: #0f1923;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+
+.radiantlogo {
+    padding: 200px;
+} */
+
+#logo {
+    margin-top: 120px;
+    background-color: #0f1923;
+}
+
+.board {
+    font-family: "Tungsten-Bold", arial, georgia, sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: #fff;
+}
+
+.radiant {
+    font-family: "DINNextW1G", arial, georgia, sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+    color: white;
+}
+
+
+/* .first {
+    position: relative;
+    left: 100px;
+}
+
+.second {
+    position: relative;
+    left: 130px;
+}
+
+.third {
+    position: relative;
+    left: 50px;
+} */
+
+tbody {
+    color: #fff;
+    text-align: center;
+}
+
+.jod {
+    margin-top: 45px;
+    background-color: #dddbd4;
+}
+
+th {
+    color: black;
+}
+
+thead {
+    text-align: center;
+    font-family: "Tungsten-Bold", arial, georgia, sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    background-color: #0f1923;
+}
+
+.firsted {
+    color: #5ee6eb;
+}
+
+.seconded {
+    color: #5ee6eb;
+}
+
+.thirded {
+    color: #5ee6eb;
+}
+
+.fourthed {
+    color: #5ee6eb;
+}
+
+td {
+    color: #111110;
+}
+
+.imp {
+    font-family: "DINNextW1G", arial, georgia, sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.noimp {
+    font-family: "Tungsten-Bold", arial, georgia, sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.ndimp {
+    font-family: "DINNextW1G", arial, georgia, sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.thirdimp {
+    font-family: "DINNextW1G", arial, georgia, sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.just {
+    font-family: "Tungsten-Bold", arial, georgia, sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+}
