@@ -7,6 +7,20 @@
 body {
     font-family: "VALORANT", sans-serif !important;
     line-height: 1.5;
+    text-rendering: optimizeLegibility;
+}
+
+.valorant {
+    font-weight: bold;
+    font-size: 100px;
+    color: #ece8e1;
+}
+
+.OK {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+    font-weight: 1000;
 }
 
 .navbar-brand {

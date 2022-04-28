@@ -1,0 +1,200 @@
+#register {
+    height: 100vh;
+    background-image: url("images/viperbai.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-color: red;
+}
+
+.valo {
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    right: 100px;
+    top: 20px;
+}
+
+.account {
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    top: 300px;
+    width: 100%;
+    font-size: 60px;
+    font-weight: 900;
+    display: flex;
+}
+
+.support {
+    color: white;
+    position: relative;
+    top: 350px;
+    font-size: 0.7rem;
+    line-height: 110%;
+    text-decoration: none !important;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: 0.08em;
+}
+
+
+/* form {
+    background-color: white;
+}
+
+* {
+    box-sizing: border-box;
+} */
+
+
+/* input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    /* border: 1px solid #ccc; */
+
+
+/* border-radius: 4px;
+resize: vertical;
+
+} */
+
+
+/* label {
+    padding: 12px;
+    display: inline-block;
+}
+.container {
+    border-radius: 5px;
+    /* background-color: #f2f2f2; */
+
+
+/* padding: 20px; */
+
+
+/* } */
+
+
+/* .col-25 { */
+
+
+/* float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px; */
+
+
+/* } */
+
+
+/* .col-35 {
+    float: left;
+    width: 37.5%;
+    margin-top: 6px; */
+
+
+/* } */
+
+
+/* regitst */
+
+
+/* body {
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+} */
+
+.radius {
+    border-radius: 20px !important;
+}
+
+.card {
+    border-radius: 20px !important;
+    width: 350px;
+}
+
+.card-body .form-icon {
+    text-align: center;
+    width: 100%;
+    line-height: 0;
+    margin-top: calc(-42px - 35px);
+    margin-bottom: 28px;
+}
+
+.form-icon .icon-holder {
+    position: relative;
+    display: inline-block;
+    width: 85px;
+    height: 85px;
+    border-radius: 85px;
+    background-color: #292828;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.icon-holder img {
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    margin-top: -23%;
+    margin-left: -25%;
+}
+
+input:hover {
+    border-bottom: 1px solid #292828;
+}
+
+#imageAsBackground {
+    z-index: -1;
+    position: fixed;
+    top: 50%;
+    right: -1%;
+    transform: translateY(-50%);
+    max-height: 600px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.form-control:focus {
+    border-color: #292828;
+    box-shadow: none;
+}
+
+.form-control.is-invalid {
+    background-image: none;
+}
+
+.form-control.is-invalid:focus {
+    box-shadow: 0 3px 2px -2px red;
+}
+
+.pass {
+    float: right;
+    margin-right: 15px;
+    margin-top: -35px;
+    position: relative;
+    z-index: 5;
+    font-size: 18px;
+}
+
+.masked {
+    -webkit-text-security: disc;
+}
+
+.tablepass {
+    margin-left: 5px;
+}
